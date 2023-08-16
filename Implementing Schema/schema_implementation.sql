@@ -1,14 +1,14 @@
 use gender_pay_gap;
 
 create table Salary (
-	sl_id int,
+	sl_id int auto_increment,
     base_pay int,
     bonus_pay int,
     primary key (sl_id)
     );
 
 create table Qualities (
-	ql_id int,
+	ql_id int auto_increment,
     education varchar(45),
     perf_score int,
     seniority int,
@@ -16,7 +16,7 @@ create table Qualities (
     );
 
 CREATE TABLE Employee (
-	ep_id int,
+	ep_id int auto_increment,
     sl_id int,
     ql_id int,
     job_name varchar(45),
@@ -35,3 +35,7 @@ CREATE TABLE Employee (
 SELECT * from Salary;
 SELECT * from Qualities;
 SELECT * from Employee;
+
+drop table Salary;
+drop table Qualities;
+drop tables Employee;
