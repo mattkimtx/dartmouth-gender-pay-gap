@@ -21,6 +21,5 @@
 - 4.1 [ERD Redesign](https://github.com/mattkimtx/gender_pay_gap/wiki/4.1-ERD-Redesign)
 - 4.2 [Analyzing Dataset with R](https://github.com/mattkimtx/gender_pay_gap/wiki/4.2-Analyzing-Dataset-with-R)
 - 4.3 [Developing a Web Interface](https://github.com/mattkimtx/gender_pay_gap/wiki/4.3-Developing-a-Web-Interface)
-- 4.4 [Create User Authentication and Authorization](https://github.com/mattkimtx/gender_pay_gap/wiki/4.4-Create-User-Authentications-and-Authorization)
-- 4.5 [Answering Questions](https://github.com/mattkimtx/gender_pay_gap/wiki/4.5-Answering-Questions)
-- 4.6 [Finalizing Project](https://github.com/mattkimtx/gender_pay_gap/wiki/4.6-Finalizing-Project)
+- 4.4 [Answering Questions](https://github.com/mattkimtx/gender_pay_gap/wiki/4.4-Answering-Questions)
+- 4.5 [Finalizing Project](https://github.com/mattkimtx/gender_pay_gap/wiki/4.5-Finalizing-Project)
