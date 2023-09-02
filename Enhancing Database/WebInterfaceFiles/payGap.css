@@ -1,0 +1,30 @@
+h1 {
+     background-color: lightblue;
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 4em; /* 3em means 3x bigger than any other font */
+}
+
+h2 {
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 2em; /* 3em means 3x bigger than any other font */ 
+}
+
+form {
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 1em; /* 3em means 3x bigger than any other font */ 
+}
+
+.containter {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+/* Keeps header at the top while you scroll down */
+header{
+     position: sticky;
+     top: 0;
+}

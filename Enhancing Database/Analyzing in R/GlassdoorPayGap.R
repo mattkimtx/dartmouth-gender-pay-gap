@@ -32,6 +32,12 @@ summarized <- payGap |>
   summarize(mean_pay = mean(BasePay + Bonus))
 summarized
 
+png(file = "summarized.png", width = 6, height = 6, units = "in", res = 400)
+barplot(summarized$mean_pay, names.arg=summarized$Gender, xlab = "Gender", ylab = "MeanPay",col="blue",
+        main="MeanPay",border="black")
+# Save the file
+dev.off()
+
 jobPayGap <- payGap |>
   group_by(Gender, JobTitle) |>
   summarize(mean_pay = mean(BasePay + Bonus))
