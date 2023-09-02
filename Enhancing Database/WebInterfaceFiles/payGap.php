@@ -13,6 +13,10 @@
 
 //Define your query - pay close attention to ' and "!
   $query="SELECT Job, ROUND(AVG(Base + Bonus), 2) AS Salary from Employees where Job='".$job."'";
+  $stmt=$mysqli->prepare($query);
+  $stmt->bind_param('s',$job);
+  $stmt->execute();
+  $result = $stmt->get_result();
 
 //Run query - result is reurned as a resource id
 //If query has error, _LINE_ will print the error from mysql
