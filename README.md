@@ -24,4 +24,3 @@
 - 4.4 [Create User Authentication and Authorization](https://github.com/mattkimtx/gender_pay_gap/wiki/4.4-Create-User-Authentications-and-Authorization)
 - 4.5 [Answering Questions](https://github.com/mattkimtx/gender_pay_gap/wiki/4.5-Answering-Questions)
 - 4.6 [Finalizing Project](https://github.com/mattkimtx/gender_pay_gap/wiki/4.6-Finalizing-Project)
-- 5.0 [Project Summary](https://github.com/mattkimtx/gender_pay_gap/wiki/5.0-Project-Summary)
